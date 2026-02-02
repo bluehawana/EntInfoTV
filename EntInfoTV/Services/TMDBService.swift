@@ -65,7 +65,7 @@ final class TMDBService {
     static let shared = TMDBService()
 
     static let imageBase = "https://image.tmdb.org/t/p/w500"
-    static let imageBaseLarge = "https://image.tmdb.org/t/p/w1280"
+    static let imageBaseLarge = "https://image.tmdb.org/t/p/original"
     static let providerLogoBase = "https://image.tmdb.org/t/p/w92"
     static let profileBase = "https://image.tmdb.org/t/p/w185"
 
