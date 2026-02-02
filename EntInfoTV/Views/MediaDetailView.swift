@@ -227,6 +227,7 @@ private struct RemoteImageView: View {
                     case .success(let image):
                         image
                             .resizable()
+                            .interpolation(.high)
                             .scaledToFill()
                     case .failure:
                         PlaceholderView(iconSize: 40)
@@ -340,6 +341,7 @@ private struct PersonImage: View {
                     case .success(let image):
                         image
                             .resizable()
+                            .interpolation(.high)
                             .scaledToFill()
                     case .failure:
                         PlaceholderView(iconSize: 24, iconName: "person.fill")
@@ -576,6 +578,7 @@ private struct ProviderLogo: View {
                     case .success(let image):
                         image
                             .resizable()
+                            .interpolation(.high)
                             .scaledToFill()
                     case .failure:
                         PlaceholderView(iconSize: 24, iconName: "play.rectangle")

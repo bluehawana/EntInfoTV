@@ -151,6 +151,7 @@ private struct HeroImage: View {
                     case .success(let image):
                         image
                             .resizable()
+                            .interpolation(.high)
                             .scaledToFill()
                     case .failure:
                         PlaceholderView(iconSize: 60)
