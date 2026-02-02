@@ -1,9 +1,14 @@
 {
   "images" : [
     {
-      "filename" : "AppIcon-AppStore-Back-1280x768.png",
+      "filename" : "AppLogo-512.png",
       "idiom" : "tv",
       "scale" : "1x"
+    },
+    {
+      "filename" : "AppLogo-1024.png",
+      "idiom" : "tv",
+      "scale" : "2x"
     }
   ],
   "info" : {

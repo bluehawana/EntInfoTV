@@ -152,20 +152,11 @@ struct PosterRow: View {
 
 struct BrandWordmark: View {
     var body: some View {
-        HStack(spacing: 8) {
-            ZStack {
-                RoundedRectangle(cornerRadius: 6, style: .continuous)
-                    .fill(AppTheme.primary)
-                Text("EI")
-                    .font(.system(size: 12, weight: .bold, design: .rounded))
-                    .foregroundColor(.black)
-            }
-            .frame(width: 24, height: 20)
-
-            Text("EntInfo")
-                .font(.system(size: 18, weight: .semibold))
-                .foregroundColor(AppTheme.text)
-        }
-        .accessibilityLabel("EntInfo")
+        Image("AppLogo")
+            .resizable()
+            .scaledToFit()
+            .frame(height: 32)
+            .shadow(color: .black.opacity(0.4), radius: 6, x: 0, y: 2)
+            .accessibilityLabel("EntInfo")
     }
 }
