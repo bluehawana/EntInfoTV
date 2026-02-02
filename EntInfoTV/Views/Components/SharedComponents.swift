@@ -155,7 +155,7 @@ struct BrandWordmark: View {
         Image("AppLogo")
             .resizable()
             .scaledToFit()
-            .frame(height: 48)
+            .frame(height: 72)
             .shadow(color: .black.opacity(0.4), radius: 6, x: 0, y: 2)
             .focusable(false)
             .accessibilityLabel("EntInfo")
