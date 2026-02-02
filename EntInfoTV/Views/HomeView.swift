@@ -91,7 +91,7 @@ private struct HeroSlide: View {
 
     var body: some View {
         ZStack(alignment: .bottomLeading) {
-            HeroImage(url: TMDBService.shared.imageURL(path: item.backdropPath ?? item.posterPath, large: true))
+            HeroImage(url: TMDBService.shared.imageURL(path: item.posterPath ?? item.backdropPath, large: true))
 
             LinearGradient(
                 colors: [
