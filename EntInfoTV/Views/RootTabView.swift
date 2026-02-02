@@ -32,7 +32,7 @@ struct RootTabView: View {
         .overlay(alignment: .topLeading) {
             BrandWordmark()
                 .padding(.leading, 56)
-                .padding(.top, 4)
+                .padding(.top, -2)
                 .allowsHitTesting(false)
         }
     }
